@@ -1,8 +1,0 @@
-/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/RobotArm-upload.dir
-/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/upload.dir
-/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/RobotArm-size.dir
-/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/RobotArm.dir
-/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/uno_AFMotor.dir
-/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/uno_CORE.dir

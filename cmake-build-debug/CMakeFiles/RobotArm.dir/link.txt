@@ -1,1 +1,0 @@
-/usr/bin/avr-g++   -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD  -w -Os -Wl,--gc-sections -w -Os -Wl,--gc-sections -mmcu=atmega328p  CMakeFiles/RobotArm.dir/RobotArm_RobotArm.ino.cpp.obj  -o RobotArm.elf  libuno_AFMotor.a libuno_CORE.a -lc -lm 

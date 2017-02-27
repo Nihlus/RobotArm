@@ -1,2 +1,0 @@
-/usr/bin/avr-ar qc libuno_AFMotor.a  CMakeFiles/uno_AFMotor.dir/lib/AFMotor/AFMotor.cpp.obj
-/usr/bin/avr-ranlib libuno_AFMotor.a

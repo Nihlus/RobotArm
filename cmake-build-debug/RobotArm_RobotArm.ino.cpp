@@ -35,9 +35,10 @@ const uint8_t pinRotationRight = A3;
 
 /*
  * Command protocol enumerations & definitions
- *
  */
 
+/// <summary>
+/// </summary>
 enum Command : uint8_t
 {
 	MoveForward     = 0xF0,
