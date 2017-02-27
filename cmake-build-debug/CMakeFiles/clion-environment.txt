@@ -1,0 +1,1 @@
+CMake: 3.6.3@/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake

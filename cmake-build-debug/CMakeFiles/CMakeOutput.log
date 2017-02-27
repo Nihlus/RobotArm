@@ -1,0 +1,309 @@
+The target system is: Arduino -  - 
+The host system is: Linux - 4.10.0-041000-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/avr-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/avr-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14526/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14526.dir/build.make CMakeFiles/cmTC_14526.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14526.dir/testCCompiler.c.obj
+/usr/bin/avr-gcc    -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_14526.dir/testCCompiler.c.obj   -c /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_14526
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14526.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_14526.dir/testCCompiler.c.obj  -o cmTC_14526  
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3efef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3efef.dir/build.make CMakeFiles/cmTC_3efef.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj
+/usr/bin/avr-gcc    -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj   -c /home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_3efef
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3efef.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj  -o cmTC_3efef   
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/4.9.2/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.9.2/lto-wrapper
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=avr CFLAGS='-g -O2 -fstack-protector-strong -Wformat ' CPPFLAGS=-D_FORTIFY_SOURCE=2 CXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ' FCFLAGS='-g -O2 -fstack-protector-strong' FFLAGS='-g -O2 -fstack-protector-strong' GCJFLAGS='-g -O2 -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fstack-protector-strong -Wformat ' OBJCXXFLAGS='-g -O2 -fstack-protector-strong -Wformat '
+Thread model: single
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_3efef' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/4.9.2/collect2 -plugin /usr/lib/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVPLTWF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_3efef -L/usr/lib/gcc/avr/4.9.2 -L/usr/lib/gcc/avr/4.9.2/../../../avr/lib --gc-sections CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3efef/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3efef.dir/build.make CMakeFiles/cmTC_3efef.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/avr-gcc    -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj   -c /home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_3efef]
+  ignore line: [/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3efef.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-gcc  -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj  -o cmTC_3efef   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/4.9.2/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.9.2/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=avr CFLAGS='-g -O2 -fstack-protector-strong -Wformat ' CPPFLAGS=-D_FORTIFY_SOURCE=2 CXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ' FCFLAGS='-g -O2 -fstack-protector-strong' FFLAGS='-g -O2 -fstack-protector-strong' GCJFLAGS='-g -O2 -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fstack-protector-strong -Wformat ' OBJCXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ']
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_3efef' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/4.9.2/collect2 -plugin /usr/lib/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVPLTWF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_3efef -L/usr/lib/gcc/avr/4.9.2 -L/usr/lib/gcc/avr/4.9.2/../../../avr/lib --gc-sections CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVPLTWF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3efef] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.9.2] ==> dir [/usr/lib/gcc/avr/4.9.2]
+    arg [-L/usr/lib/gcc/avr/4.9.2/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.9.2/../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_3efef.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/avr/4.9.2] ==> [/usr/lib/gcc/avr/4.9.2]
+  collapse library dir [/usr/lib/gcc/avr/4.9.2/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [m;c]
+  implicit dirs: [/usr/lib/gcc/avr/4.9.2;/usr/lib/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66870/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66870.dir/build.make CMakeFiles/cmTC_66870.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66870.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c11 -o CMakeFiles/cmTC_66870.dir/feature_tests.c.obj   -c /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_66870
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66870.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_66870.dir/feature_tests.c.obj  -o cmTC_66870  
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06fa2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06fa2.dir/build.make CMakeFiles/cmTC_06fa2.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06fa2.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c99 -o CMakeFiles/cmTC_06fa2.dir/feature_tests.c.obj   -c /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_06fa2
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06fa2.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_06fa2.dir/feature_tests.c.obj  -o cmTC_06fa2  
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d032e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d032e.dir/build.make CMakeFiles/cmTC_d032e.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d032e.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c90 -o CMakeFiles/cmTC_d032e.dir/feature_tests.c.obj   -c /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d032e
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d032e.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_d032e.dir/feature_tests.c.obj  -o cmTC_d032e  
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7020/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7020.dir/build.make CMakeFiles/cmTC_d7020.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7020.dir/testCXXCompiler.cxx.obj
+/usr/bin/avr-g++     -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_d7020.dir/testCXXCompiler.cxx.obj -c /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d7020
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7020.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_d7020.dir/testCXXCompiler.cxx.obj  -o cmTC_d7020  
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94875/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94875.dir/build.make CMakeFiles/cmTC_94875.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/avr-g++     -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj -c /home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_94875
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94875.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_94875   
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/4.9.2/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.9.2/lto-wrapper
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=avr CFLAGS='-g -O2 -fstack-protector-strong -Wformat ' CPPFLAGS=-D_FORTIFY_SOURCE=2 CXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ' FCFLAGS='-g -O2 -fstack-protector-strong' FFLAGS='-g -O2 -fstack-protector-strong' GCJFLAGS='-g -O2 -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fstack-protector-strong -Wformat ' OBJCXXFLAGS='-g -O2 -fstack-protector-strong -Wformat '
+Thread model: single
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_94875' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/4.9.2/collect2 -plugin /usr/lib/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0wOb1Z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_94875 -L/usr/lib/gcc/avr/4.9.2 -L/usr/lib/gcc/avr/4.9.2/../../../avr/lib --gc-sections CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_94875/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_94875.dir/build.make CMakeFiles/cmTC_94875.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/avr-g++     -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj -c /home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_94875]
+  ignore line: [/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94875.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-g++   -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_94875   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/4.9.2/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.9.2/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=avr CFLAGS='-g -O2 -fstack-protector-strong -Wformat ' CPPFLAGS=-D_FORTIFY_SOURCE=2 CXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ' FCFLAGS='-g -O2 -fstack-protector-strong' FFLAGS='-g -O2 -fstack-protector-strong' GCJFLAGS='-g -O2 -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fstack-protector-strong -Wformat ' OBJCXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ']
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_94875' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/4.9.2/collect2 -plugin /usr/lib/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0wOb1Z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_94875 -L/usr/lib/gcc/avr/4.9.2 -L/usr/lib/gcc/avr/4.9.2/../../../avr/lib --gc-sections CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0wOb1Z.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_94875] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.9.2] ==> dir [/usr/lib/gcc/avr/4.9.2]
+    arg [-L/usr/lib/gcc/avr/4.9.2/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.9.2/../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_94875.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/avr/4.9.2] ==> [/usr/lib/gcc/avr/4.9.2]
+  collapse library dir [/usr/lib/gcc/avr/4.9.2/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [m;m;c]
+  implicit dirs: [/usr/lib/gcc/avr/4.9.2;/usr/lib/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d468/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d468.dir/build.make CMakeFiles/cmTC_5d468.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d468.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++14 -o CMakeFiles/cmTC_5d468.dir/feature_tests.cxx.obj -c /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5d468
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d468.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_5d468.dir/feature_tests.cxx.obj  -o cmTC_5d468  
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75874/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75874.dir/build.make CMakeFiles/cmTC_75874.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75874.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++11 -o CMakeFiles/cmTC_75874.dir/feature_tests.cxx.obj -c /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_75874
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75874.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_75874.dir/feature_tests.cxx.obj  -o cmTC_75874  
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db8ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db8ed.dir/build.make CMakeFiles/cmTC_db8ed.dir/build
+make[1]: Entering directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db8ed.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++98 -o CMakeFiles/cmTC_db8ed.dir/feature_tests.cxx.obj -c /home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_db8ed
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db8ed.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_db8ed.dir/feature_tests.cxx.obj  -o cmTC_db8ed  
+make[1]: Leaving directory '/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

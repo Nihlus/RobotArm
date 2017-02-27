@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jarl/Programming/RobotArm/lib/AFMotor/AFMotor.cpp
+Arduino.h
+/home/jarl/Programming/RobotArm/lib/AFMotor/Arduino.h
+avr/io.h
+-
+WProgram.h
+/home/jarl/Programming/RobotArm/lib/AFMotor/WProgram.h
+AFMotor.h
+/home/jarl/Programming/RobotArm/lib/AFMotor/AFMotor.h
+
+/home/jarl/Programming/RobotArm/lib/AFMotor/AFMotor.h
+inttypes.h
+-
+avr/io.h
+-
+

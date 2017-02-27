@@ -1,0 +1,7 @@
+/home/jarl/Programming/IDEs/apps/CLion/ch-1/171.2822.8/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jarl/Programming/RobotArm
+CMake Error at CMakeLists.txt:11 (enerate_arduino_firmware):
+  Unknown CMake command "enerate_arduino_firmware".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles/CMakeOutput.log".
