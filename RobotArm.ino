@@ -4,13 +4,25 @@
    TODO
  */
 
+#include <Arduino.h>
+#include "AFMotor.h"
+
+AF_DCMotor stick(1, MOTOR12_64KHZ);
+AF_DCMotor boom(2, MOTOR12_64KHZ);
+AF_DCMotor rotator(3, MOTOR34_64KHZ);
+AF_DCMotor grip(4, MOTOR34_64KHZ);
+
+const uint8_t pinStickForward = A1;
+const uint8_t pinStickBackward = A0;
+const uint8_t pinRotationLeft = A2;
+const uint8_t pinRotationRight = A3;
+
 /*
  * Command protocol enumerations & definitions
- *
  */
 
-#define ConnectionRequest 0xC0
-
+/// <summary>
+/// </summary>
 enum Command : uint8_t
 {
 	MoveForward     = 0xF0,
@@ -35,19 +47,6 @@ enum Query : uint8_t
 {
 	StillConnected  = 0xC0
 };
-
-#include <Arduino.h>
-#include "AFMotor.h"
-
-AF_DCMotor stick(1, MOTOR12_64KHZ);
-AF_DCMotor boom(2, MOTOR12_64KHZ);
-AF_DCMotor rotator(3, MOTOR34_64KHZ);
-AF_DCMotor grip(4, MOTOR34_64KHZ);
-
-const uint8_t pinStickForward = A1;
-const uint8_t pinStickBackward = A0;
-const uint8_t pinRotationLeft = A2;
-const uint8_t pinRotationRight = A3;
 
 void setup()
 {

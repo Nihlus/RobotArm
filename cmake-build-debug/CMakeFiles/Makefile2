@@ -159,8 +159,8 @@ clean: CMakeFiles/RobotArm-size.dir/clean
 # Target rules for target CMakeFiles/RobotArm.dir
 
 # All Build rule for target.
-CMakeFiles/RobotArm.dir/all: CMakeFiles/uno_AFMotor.dir/all
 CMakeFiles/RobotArm.dir/all: CMakeFiles/uno_CORE.dir/all
+CMakeFiles/RobotArm.dir/all: CMakeFiles/uno_AFMotor.dir/all
 	$(MAKE) -f CMakeFiles/RobotArm.dir/build.make CMakeFiles/RobotArm.dir/depend
 	$(MAKE) -f CMakeFiles/RobotArm.dir/build.make CMakeFiles/RobotArm.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jarl/Programming/RobotArm/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target RobotArm"

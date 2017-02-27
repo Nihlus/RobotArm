@@ -8,4 +8,4 @@ set(${CMAKE_PROJECT_NAME}_BOARD uno)
 set(${CMAKE_PROJECT_NAME}_PORT /dev/ttyACM0)
 
 include_directories(${CMAKE_SOURCE_DIR}/lib)
-enerate_arduino_firmware(${CMAKE_PROJECT_NAME})
+generate_arduino_firmware(${CMAKE_PROJECT_NAME})

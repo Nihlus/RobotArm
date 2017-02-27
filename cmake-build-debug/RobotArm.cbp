@@ -75,7 +75,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/jarl/Programming/RobotArm/lib"/>
-					<Add directory="/home/jarl/Programming/RobotArm/*.hpp"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/src"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/utility"/>
@@ -98,7 +97,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/jarl/Programming/RobotArm/lib"/>
-					<Add directory="/home/jarl/Programming/RobotArm/*.hpp"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/src"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/utility"/>
@@ -121,7 +119,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/jarl/Programming/RobotArm/lib"/>
-					<Add directory="/home/jarl/Programming/RobotArm/*.hpp"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/src"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/utility"/>
@@ -144,7 +141,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/jarl/Programming/RobotArm/lib"/>
-					<Add directory="/home/jarl/Programming/RobotArm/*.hpp"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/src"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/utility"/>
@@ -167,7 +163,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/jarl/Programming/RobotArm/lib"/>
-					<Add directory="/home/jarl/Programming/RobotArm/*.hpp"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/src"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/utility"/>
@@ -190,7 +185,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/jarl/Programming/RobotArm/lib"/>
-					<Add directory="/home/jarl/Programming/RobotArm/*.hpp"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/src"/>
 					<Add directory="/home/jarl/Programming/RobotArm/lib/AFMotor/utility"/>

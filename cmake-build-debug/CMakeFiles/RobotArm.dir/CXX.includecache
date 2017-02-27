@@ -17,8 +17,6 @@ Arduino.h
 -
 AFMotor.h
 /home/jarl/Programming/RobotArm/cmake-build-debug/AFMotor.h
-ArmCommunication.hpp
-/home/jarl/Programming/RobotArm/cmake-build-debug/ArmCommunication.hpp
 Arduino.h
 /home/jarl/Programming/RobotArm/cmake-build-debug/Arduino.h
 

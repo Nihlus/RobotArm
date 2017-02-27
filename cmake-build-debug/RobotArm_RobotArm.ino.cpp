@@ -8,9 +8,8 @@
 
 #include <Arduino.h>
 #include "AFMotor.h"
-#include "ArmCommunication.hpp"
 
-#line 13 "/home/jarl/Programming/RobotArm/cmake-build-debug/RobotArm_RobotArm.ino.cpp"
+#line 12 "/home/jarl/Programming/RobotArm/cmake-build-debug/RobotArm_RobotArm.ino.cpp"
 #include "Arduino.h"
 
 //=== START Forward: /home/jarl/Programming/RobotArm/RobotArm.ino
@@ -21,7 +20,7 @@
  void loop() ;
  void loop() ;
 //=== END Forward: /home/jarl/Programming/RobotArm/RobotArm.ino
-#line 9 "/home/jarl/Programming/RobotArm/RobotArm.ino"
+#line 8 "/home/jarl/Programming/RobotArm/RobotArm.ino"
 
 
 AF_DCMotor stick(1, MOTOR12_64KHZ);
@@ -33,6 +32,36 @@ const uint8_t pinStickForward = A1;
 const uint8_t pinStickBackward = A0;
 const uint8_t pinRotationLeft = A2;
 const uint8_t pinRotationRight = A3;
+
+/*
+ * Command protocol enumerations & definitions
+ *
+ */
+
+enum Command : uint8_t
+{
+	MoveForward     = 0xF0,
+	MoveBackward    = 0xBA
+};
+
+enum Motor : uint8_t
+{
+	Grip            = 1,
+	Stick           = 2,
+	Boom            = 3,
+	Rotator         = 4
+};
+
+enum Response : uint8_t
+{
+	EndstopReached  = 0xEE,
+	Confirm         = 0xAC
+};
+
+enum Query : uint8_t
+{
+	StillConnected  = 0xC0
+};
 
 void setup()
 {

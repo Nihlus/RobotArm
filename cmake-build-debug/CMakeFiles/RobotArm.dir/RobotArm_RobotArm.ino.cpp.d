@@ -11,5 +11,4 @@ CMakeFiles/RobotArm.dir/RobotArm_RobotArm.ino.cpp.obj: \
  /opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBAPI.h \
  /opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Arduino.h \
  /opt/arduino-1.8.0/hardware/arduino/avr/variants/standard/pins_arduino.h \
- /home/jarl/Programming/RobotArm/lib/AFMotor/AFMotor.h \
- /home/jarl/Programming/RobotArm/ArmCommunication.hpp
+ /home/jarl/Programming/RobotArm/lib/AFMotor/AFMotor.h
