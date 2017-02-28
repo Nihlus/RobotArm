@@ -11,70 +11,70 @@
 				<Option working_dir="/home/jarl/Programming/RobotArm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/jarl/Programming/RobotArm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RobotArm-upload">
 				<Option working_dir="/home/jarl/Programming/RobotArm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotArm-upload"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotArm-upload"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/jarl/Programming/RobotArm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Update">
 				<Option working_dir="/home/jarl/Programming/RobotArm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Update"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Update"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="upload">
 				<Option working_dir="/home/jarl/Programming/RobotArm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RobotArm-size">
 				<Option working_dir="/home/jarl/Programming/RobotArm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotArm-size"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotArm-size"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RobotArm">
@@ -93,10 +93,10 @@
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotArm"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotArm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RobotArm/fast">
@@ -115,10 +115,10 @@
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotArm/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotArm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uno_AFMotor">
@@ -137,10 +137,10 @@
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_AFMotor"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_AFMotor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uno_AFMotor/fast">
@@ -159,10 +159,10 @@
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_AFMotor/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_AFMotor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uno_CORE">
@@ -181,10 +181,10 @@
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uno_CORE/fast">
@@ -203,10 +203,10 @@
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/RobotArm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -219,133 +219,133 @@
 		<Unit filename="/home/jarl/Programming/RobotArm/lib/AFMotor/AFMotor.h">
 			<Option target="uno_AFMotor"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Arduino.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Arduino.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/CDC.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Client.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Client.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/IPAddress.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/IPAddress.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Print.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Print.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Print.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Print.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Printable.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Printable.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Server.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Server.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Stream.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Stream.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Stream.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Tone.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/USBAPI.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBAPI.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBCore.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/USBCore.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBCore.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/USBDesc.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBDesc.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/Udp.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Udp.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/WCharacter.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WCharacter.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WInterrupts.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WMath.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/WString.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WString.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/WString.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WString.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/abi.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/abi.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/binary.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/binary.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/hooks.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/hooks.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/main.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/main.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/new.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/new.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/new.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/new.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/wiring.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_analog.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_digital.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/wiring_private.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_private.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_shift.c">
 			<Option target="uno_CORE"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/RobotArm/CMakeLists.txt">

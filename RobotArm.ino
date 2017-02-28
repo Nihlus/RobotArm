@@ -148,7 +148,7 @@ struct MotionCommand
 /// <summary>
 /// A response which goes back to the controlling software.
 /// </summary>
-struct __attribute__ ((packed)) CommandResponse
+struct CommandResponse
 {
 	/// <summary>
 	/// The status of the response.
@@ -170,6 +170,13 @@ struct __attribute__ ((packed)) CommandResponse
 	/// </summary>
 	Motor motor;
 };
+
+void sendPacket(char* message, uint64_t length)
+{
+	Serial.write(0xFF);
+	Serial.write((unsigned long)length);
+	Serial.write(message, length);
+}
 
 void setup()
 {
@@ -196,7 +203,8 @@ void setup()
 	{
 		// Controlling software is expected. Wait for a connection.
 		uint8_t serialSignature = 0;
-		while (serialSignature != (uint8_t)Command::Connect)
+		//while (serialSignature != (uint8_t)Command::Connect)
+		while (serialSignature != 'c')
 		{
 			if (Serial.available() > 0)
 			{
@@ -210,6 +218,10 @@ void setup()
 			}
 		}
 
+		char* message = (char*) "CON ACK";
+		sendPacket(message, strlen(message));
+		delete message;
+
 		// We've connected to a control software, let's send an acknowledge packet
 		CommandResponse* connectionResponse = new CommandResponse();
 		connectionResponse->status = Status::AllClear;
@@ -217,7 +229,8 @@ void setup()
 		connectionResponse->command = Command::Connect;
 		connectionResponse->motor = Motor::None;
 
-		Serial.write((uint8_t*)&connectionResponse, sizeof(CommandResponse));
+		//Serial.write((uint8_t*)&connectionResponse, sizeof(CommandResponse));
+		sendPacket((char*)&connectionResponse, sizeof(CommandResponse));
 		delete connectionResponse;
 	}
 }
