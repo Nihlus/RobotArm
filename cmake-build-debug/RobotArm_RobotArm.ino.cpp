@@ -29,8 +29,6 @@
 #include "Arduino.h"
 
 //=== START Forward: /home/jarl/Programming/RobotArm/RobotArm.ino
- void sendPacket(char* message, uint64_t length) ;
- void sendPacket(char* message, uint64_t length) ;
  void setup() ;
  void setup() ;
  void checkButton(uint8_t pin, int &stateVariable, AF_DCMotor motor, uint8_t direction) ;
@@ -153,6 +151,11 @@ enum class Error : uint8_t
 struct MotionCommand
 {
 	/// <summary>
+	/// The binary signature of the structure.
+	/// </summary>
+	const uint8_t Signature = 0xFB;
+
+	/// <summary>
 	/// The sent command.
 	/// </summary>
 	Command command;
@@ -168,6 +171,11 @@ struct MotionCommand
 /// </summary>
 struct CommandResponse
 {
+	/// <summary>
+	/// The binary signature of the structure.
+	/// </summary>
+	const uint8_t Signature = 0xFC;
+
 	/// <summary>
 	/// The status of the response.
 	/// </summary>
@@ -189,32 +197,23 @@ struct CommandResponse
 	Motor motor;
 };
 
-/// <summary>
-/// A message packet which is passed over serial.
-/// </summary>
-struct SerialMessagePacket
+struct ConnectionQuery
 {
 	/// <summary>
-	/// The signature that designates the start of a message packet.
+	/// The binary signature of the structure.
 	/// </summary>
-	const uint8_t Signature = 0xFF;
+	const uint8_t Signature = 0xFA;
 
-	/// <summary>
-	/// The length of the message in the buffer.
-	/// </summary>
-	uint64_t MessageLength;
-
-	/// <summary>
-	/// The message.
-	/// </summary>
-	uint8_t Message[];
+	const Command connected = Command::Connect;
 };
 
-void sendPacket(char* message, uint64_t length)
+template <typename T> void sendPacket(T* content)
 {
+	Serial.flush();
+
 	Serial.write(0xFF);
-	Serial.write((unsigned long)length);
-	Serial.write(message, length);
+	Serial.write((int)sizeof(T));
+	Serial.write((char*)&*content, sizeof(T));
 }
 
 void setup()
@@ -257,19 +256,13 @@ void setup()
 			}
 		}
 
-		char* message = (char*) "CON ACK";
-		sendPacket(message, strlen(message));
-		delete message;
-
-		// We've connected to a control software, let's send an acknowledge packet
 		CommandResponse* connectionResponse = new CommandResponse();
 		connectionResponse->status = Status::AllClear;
 		connectionResponse->error = Error::None;
 		connectionResponse->command = Command::Connect;
 		connectionResponse->motor = Motor::None;
 
-		//Serial.write((uint8_t*)&connectionResponse, sizeof(CommandResponse));
-		sendPacket((char*)&connectionResponse, sizeof(CommandResponse));
+		sendPacket(connectionResponse);
 		delete connectionResponse;
 	}
 }
@@ -316,6 +309,19 @@ void loop()
 	}
 	else
 	{
-
+		//if (isControllerStillConnected())
+		{
+			/*
+			packet = readPacket();
+			switch (packet_>signature)
+			{
+				case MotionCommand::Signature:
+			    {
+			        executeMotion((MotionCommand)packet);
+		        }
+		        case
+			}
+			 */
+		}
 	}
 }

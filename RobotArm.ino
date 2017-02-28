@@ -135,6 +135,11 @@ enum class Error : uint8_t
 struct MotionCommand
 {
 	/// <summary>
+	/// The binary signature of the structure.
+	/// </summary>
+	const uint8_t Signature = 0xFB;
+
+	/// <summary>
 	/// The sent command.
 	/// </summary>
 	Command command;
@@ -150,6 +155,11 @@ struct MotionCommand
 /// </summary>
 struct CommandResponse
 {
+	/// <summary>
+	/// The binary signature of the structure.
+	/// </summary>
+	const uint8_t Signature = 0xFC;
+
 	/// <summary>
 	/// The status of the response.
 	/// </summary>
@@ -171,11 +181,23 @@ struct CommandResponse
 	Motor motor;
 };
 
-void sendPacket(char* message, uint64_t length)
+struct ConnectionQuery
 {
+	/// <summary>
+	/// The binary signature of the structure.
+	/// </summary>
+	const uint8_t Signature = 0xFA;
+
+	const Command connected = Command::Connect;
+};
+
+template <typename T> void sendPacket(T* content)
+{
+	Serial.flush();
+
 	Serial.write(0xFF);
-	Serial.write((unsigned long)length);
-	Serial.write(message, length);
+	Serial.write((int)sizeof(T));
+	Serial.write((char*)&*content, sizeof(T));
 }
 
 void setup()
@@ -218,19 +240,13 @@ void setup()
 			}
 		}
 
-		char* message = (char*) "CON ACK";
-		sendPacket(message, strlen(message));
-		delete message;
-
-		// We've connected to a control software, let's send an acknowledge packet
 		CommandResponse* connectionResponse = new CommandResponse();
 		connectionResponse->status = Status::AllClear;
 		connectionResponse->error = Error::None;
 		connectionResponse->command = Command::Connect;
 		connectionResponse->motor = Motor::None;
 
-		//Serial.write((uint8_t*)&connectionResponse, sizeof(CommandResponse));
-		sendPacket((char*)&connectionResponse, sizeof(CommandResponse));
+		sendPacket(connectionResponse);
 		delete connectionResponse;
 	}
 }
@@ -277,6 +293,19 @@ void loop()
 	}
 	else
 	{
-
+		//if (isControllerStillConnected())
+		{
+			/*
+			packet = readPacket();
+			switch (packet_>signature)
+			{
+				case MotionCommand::Signature:
+			    {
+			        executeMotion((MotionCommand)packet);
+		        }
+		        case
+			}
+			 */
+		}
 	}
 }
